@@ -1,0 +1,112 @@
+
+body {
+    margin: 10px;
+    background-image: url("/Users/klaralundgren/Documents/nyMap/boksuddig.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}
+
+h1 {
+    text-align: center;
+    font-family: "Times New Roman", Georgia, serif; 
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: bolder;
+    
+}
+
+p {
+    font-family: "Times New Roman", Georgia, serif;
+    font-size: 25px;
+    font-style: oblique;
+    font-weight: bold;
+   
+}
+
+button {
+   border-top: 1px solid #5c5c56;
+   background: #87827b;
+   background: -webkit-gradient(linear, left top, left bottom, from(#736e69), to(#87827b));
+   background: -webkit-linear-gradient(top, #736e69, #87827b);
+   background: -moz-linear-gradient(top, #736e69, #87827b);
+   background: -ms-linear-gradient(top, #736e69, #87827b);
+   background: -o-linear-gradient(top, #736e69, #87827b);
+   padding: 5px 10px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 13px;
+   font-family: Georgia, Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+button:hover {
+   border-top-color: #cacfc4;
+   background: #cacfc4;
+   color: #bcbfac;
+   }
+button:active {
+   border-top-color: #ecf2ea;
+   background: #ecf2ea;
+   }
+
+
+.flexLåda {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.flexinnehåll {
+    margin: 0 auto 0 auto;
+   
+}
+
+.getkey {
+    text-align: center;
+    padding: 10px;
+}
+
+.addbook {
+   text-align: center;
+   border: 1px solid #e8e5d9;
+   width: 300px;
+   height: 640px;    
+   float: left;
+   margin: 5px 5px;
+   background-color: #e8e5d9;    
+   
+}
+
+.viewbooks {
+    text-align: center;
+    border: 1px solid #e8e5d9;
+    width: 300px; 
+    height: 640px;
+    float: right;
+    margin: 5px 5px;
+    background-color: #e8e5d9;
+    
+}
+
+footer {
+    text-align: center;
+    border: 1px solid black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:100px;
+    background:#4C4343;
+    
+}    
+     

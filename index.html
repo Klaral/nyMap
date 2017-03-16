@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+  <title>uppgift</title>
+     <script src="index.js"></script> 
+     <link rel="stylesheet" href="index.css">
+ </head>
+<body>
+    
+    <div class="flexLåda">
+
+    
+    <!--Inlämningsuppgift-->
+
+    <h1>Inlämningsuppgift</h1>
+    
+    
+    <div class="getkey">
+ <button id= "getkeyButton" type="button" >API nyckel</button> 
+<p>Received: <output id="output">Key</output></p>  
+       </div><br>
+   
+
+        
+    <div class="flexinnehåll">    
+    
+    
+    <!--Skriv dina böcker här-->    
+        
+     <div class="addbook">
+<div>
+    <p>Skriv in dina böcker här</p><br>    
+
+        <input id="inputTitle" type="text" name="title" placeholder="Title"><br><br>
+        <input id="inputAuthor" type="text" name="author" placeholder="Author"><br><br>
+    <button id="addbooks">Lägg till bok</button>
+</div><br><br>  
+        </div>    
+    
+    
+    <!--View your books-->
+    
+       <div class="viewbooks">
+    <p>Visa dina sparade böcker</p>        
+ 
+ <button type="button" id="viewbooks">Visa böcker</button><br><br> 
+
+           <div id="resultat"><ol id="lista"></ol>
+           </div>    
+      
+           
+    </div>
+   <div id="error">
+    </div>    
+    
+      
+        </div>
+        
+    </div>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+				 
