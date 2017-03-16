@@ -1,7 +1,7 @@
 
 body {
     margin: 10px;
-    background-image: url("/Users/klaralundgren/Documents/nyMap/boksuddig.jpg");
+    background-image: url("boksuddig.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
